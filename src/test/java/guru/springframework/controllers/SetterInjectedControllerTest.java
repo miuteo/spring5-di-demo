@@ -18,6 +18,6 @@ public class SetterInjectedControllerTest {
 
 	@Test
 	public void test(){
-		assertEquals(GreetingServiceImpl.GREETING,setterInjectedController.sayHello());
+		assertEquals("Hello Gurus!!!! - Original",setterInjectedController.sayHello());
 	}
 }
